@@ -1,3 +1,11 @@
+/*
+Create a pastries table
+It should include 2 columns: name and quantity.  
+Name is 50 characters max.
+Inspect your table/columns in the CLI
+Delete your table!
+*/
+
 CREATE DATABASE ultimate_mysql_bootcamp;
 
 USE ultimate_mysql_bootcamp;
