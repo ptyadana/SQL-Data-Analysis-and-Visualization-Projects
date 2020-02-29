@@ -1,0 +1,1 @@
+just mysql notes and exercises
