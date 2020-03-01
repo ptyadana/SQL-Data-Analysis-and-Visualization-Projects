@@ -1,5 +1,5 @@
 # MySQL Notes & Exercises
-just mysql notes and exercises.
+just MySQL notes and exercises.
 
 ## Exercises
-exercises are from challenges from Udemy course **The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert**
+Ultimate MySQL : exercises are from challenges from Udemy course **The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert**
