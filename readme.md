@@ -1,6 +1,10 @@
 # MySQL Projects
 Compilation of MySQL related projects, notes and challenges.
 
+### Database and Tool
++ MySQL
++ MySQL Workbench
+
 ## Projects
 **Instagram Clone Project**: MySQL project which is a cloned mimic version of Instagram database. It is used to perform analysis for real world business related questions.
 
