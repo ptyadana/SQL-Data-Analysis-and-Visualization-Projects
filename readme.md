@@ -1,5 +1,5 @@
-# MySQL Projects
-Compilation of MySQL related projects, notes and challenges.
+# MySQL Data Analysis Projects
+Compilation of MySQL data analysis related projects, notes and challenges.
 
 ### Database and Tool
 + MySQL
