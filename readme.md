@@ -4,11 +4,15 @@ Compilation of MySQL data analysis related projects, notes and challenges.
 ### Database and Tool
 + MySQL
 + MySQL Workbench
++ Tableau Public
 
 ## Projects
 **Instagram Clone Project**: MySQL project which is a cloned mimic version of Instagram database. It is used to perform analysis for real world business related questions.
 
 **Flim Rental Store**: perform data analysis for user behaviours, making data driven decisions, discovering marketing stats, finding actionable customer/business insights, Measuring and track marketing efforts.
+
+## SQL - Tableau Visualization Projects
+**SQL - MySQL for Data Analytics and Business Intelligence** : challenges are from [SQL - MySQL for Data Analytics and Business Intelligence](https://www.udemy.com/course/sql-mysql-for-data-analytics-and-business-intelligence/) which is an interesting course. See [details on Github](https://github.com/ptyadana/sql-tableau-data-analysis-visualization-projects).
 
 
 ## Challenges
