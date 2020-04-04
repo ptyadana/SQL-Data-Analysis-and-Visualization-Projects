@@ -23,3 +23,5 @@ Compilation of MySQL data analysis related projects, notes and challenges.
 **SQL Queries - Practice your SQL Knowledge**: challenges from Skillshare course [SQL Queries: Practice your SQL Knowledge!](https://www.skillshare.com/classes/SQL-Queries-Practice-your-SQL-Knowledge/465058562).
 
 **SQL for Data Analysis - Weekender Crash Course**: challenges from Udemy course [SQL for Data Analysis: Weekender Crash Course](https://www.udemy.com/course/sql-for-newbs/) which is meant for beginner. But I found it quite fun to watch the instructors. Project is "Flim Rental Store".
+
+**Complete SQL Mastery**: challenges from skillshare course [Complete SQL Mastery](https://www.skillshare.com/classes/Complete-SQL-Mastery/830777294).
