@@ -24,4 +24,4 @@ Compilation of MySQL data analysis related projects, notes and challenges.
 
 **SQL for Data Analysis - Weekender Crash Course**: challenges from Udemy course [SQL for Data Analysis: Weekender Crash Course](https://www.udemy.com/course/sql-for-newbs/) which is meant for beginner. But I found it quite fun to watch the instructors. Project is "Flim Rental Store".
 
-**Complete SQL Mastery**: challenges from skillshare course [Complete SQL Mastery](https://www.skillshare.com/classes/Complete-SQL-Mastery/830777294).
+**Complete SQL Mastery**: challenges from [Complete SQL Mastery](https://codewithmosh.com/p/complete-sql-mastery).
