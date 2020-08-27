@@ -23,6 +23,9 @@ Compilation of MySQL data analysis related projects, notes and challenges.
 ## Challenges
 **Ultimate MySQL** : challenges are from Udemy course [The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert](https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/) which is an amazing course.
 
+**SQL Code Challenges** : challenges are from Lynda course [SQL Code Challenges](https://www.lynda.com/SQL-tutorials/SQL-Code-Challenges/2825725-2.html) which has 2 projects:
+    - **In the Restaurant** - helping the Restaurant to manage customer information, reservations, orders and party invities in for Restaurant 20th Anniversary.
+
 **SQL 30 Questions**: challenges from Skillshare course [Skill Share - 30 Simple SQL Interview Queries](https://www.skillshare.com/classes/SQL-Interview-30-Simple-SQL-Interview-Queries-in-2019/809081836).
 
 **SQL Queries - Practice your SQL Knowledge**: challenges from Skillshare course [SQL Queries: Practice your SQL Knowledge!](https://www.skillshare.com/classes/SQL-Queries-Practice-your-SQL-Knowledge/465058562).
