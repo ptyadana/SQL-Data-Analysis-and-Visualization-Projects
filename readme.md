@@ -32,7 +32,7 @@ MySQL data analysis project in helping Flim Rental Store to
 + etc.
 
 
-## [Company Employee - SQL & Tableau Visualization Project](https://github.com/ptyadana/MySQL-Tableau-for-Data-Analytics-and-Business-Intelligence)
+## [Company Employees - SQL & Tableau Visualization Project](https://github.com/ptyadana/MySQL-Tableau-for-Data-Analytics-and-Business-Intelligence)
 MySQL & Tableau integration project for analyzing employee data and visualizing the findings across the departments for management including
 + What is breakdown between the male and female employees working in the company each year, starting from 1990?
 + What is the number of male managers to the number of female managers from different departments for each year, starting from 1990?
@@ -40,7 +40,7 @@ MySQL & Tableau integration project for analyzing employee data and visualizing 
 + etc.
 
 
-## [Parch & Posey Company Data-Analysis Project](https://github.com/ptyadana/SQL-for-Data-Analysis-Parch-and-Posey)
+## [Parch & Posey - Data Analysis Project](https://github.com/ptyadana/SQL-for-Data-Analysis-Parch-and-Posey)
 PostgreSQL project for helping fictional company called Parch & Posey for 
 + managing the Orders, 
 + finding out the relationship with different Accounts
@@ -55,7 +55,7 @@ PostgreSQL Data Analysis project to help Chinook Digital Music Store to help how
 + finding out who the best customer is
 + etc.
 
-## [Restaurant & Library - Information & Patrons ](SQL%20Code%20Challenges%20-%20Lynda)
+## [Restaurant & Library - Information & Patrons Project](SQL%20Code%20Challenges%20-%20Lynda)
 SQLite project for 
 + **In the Restaurant** - helping the Restaurant to manage customer information, reservations, orders and party invities in for Restaurant 20th Anniversary.
 + **At the Library** - helping the Library to manage the books statistics, check out and loan process, managing on due loans, encouraging patrons, etc.

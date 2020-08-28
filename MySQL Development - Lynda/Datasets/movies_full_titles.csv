@@ -1,0 +1,51 @@
+id,title,genre_id,release_year_id,director_id,studio_id
+1,Agent Of Perfection,1,1901,1,1
+2,Savior Of The End,1,1903,2,2
+3,Turtles Of Next Year,1,1910,3,3
+4,Thieves Of Eternity,1,1912,4,4
+5,Descendants And Wives,1,1913,5,2
+6,Gangsters And Blacksmiths,1,1914,3,5
+7,Perfection Of Rainbows,1,1915,6,4
+8,Surprise Without Fear,1,1914,7,1
+9,Blinded By The Ashes,1,1915,4,1
+10,Vanish In The Slaves,1,1919,8,3
+11,Little Girl Of The Sun,2,1921,9,3
+12,Bird Of Yesterday,2,1924,10,6
+13,Wizards Of Riddles,2,1925,11,1
+14,Bunnies In The River,2,1930,12,1
+15,Cows And Chickens,2,1931,3,2
+16,Little Dragons And Dogs,2,1932,1,1
+17,Coat Of Mysteries,2,1935,13,6
+18,Shield Of Dreams,2,1935,3,4
+19,Present From Petals,2,1937,14,6
+20,Cleaning With The Neighbor,2,1938,15,1
+21,Opponent Of Fortune,3,1941,16,1
+22,Peasant Of Dawn,3,1943,17,3
+23,Armies Without A Home,3,1946,3,4
+24,Rebels Of The Void,3,1947,18,1
+25,Heirs And Farmers,3,1949,19,2
+26,Supporters And Bearers,3,1955,1,6
+27,Homes Of Remorse,3,1960,20,5
+28,Creation Of Bad News,3,1962,21,4
+29,Starting The East,3,1974,22,6
+30,Death In The Elements,3,1974,23,3
+31,Tree Behind The Counter,4,1980,4,5
+32,Friend Of The Forest,4,1983,24,4
+33,Guests In The Cabin,4,1983,3,2
+34,Students With Black Hair,4,1985,1,3
+35,Students And Boys,4,1986,25,5
+36,Monsters And Wolves,4,1988,26,1
+37,Music In The Crypts,4,1991,27,6
+38,Captured In The Attic,4,1991,28,2
+39,Defiant In The North,4,1991,29,5
+40,Helpless In The Shadows,4,1992,1,5
+41,Officer Of The Ocean,5,1994,30,3
+42,Spy Of The Sands,5,1994,4,3
+43,Hunters Of Eternity,5,1995,31,2
+44,Clones Of Honor,5,1998,3,1
+45,Women And Mercenaries,5,1998,32,3
+46,Men And Traitors,5,2003,33,4
+47,Origin Of Nowhere,5,2012,4,1
+48,Extermination Of New Earth,5,2014,34,4
+49,Created By The End,5,2017,35,3
+50,Intelligence In Technolic Advancements,5,2020,19,1
