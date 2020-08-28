@@ -32,7 +32,7 @@ MySQL data analysis project in helping Flim Rental Store to
 + etc.
 
 
-## [Company Employee - SQL & Tableau Visualization Project](https://github.com/ptyadana/SQL-Tableau-Data-Analysis-Visualization-Projects)
+## [Company Employee - SQL & Tableau Visualization Project](https://github.com/ptyadana/MySQL-Tableau-for-Data-Analytics-and-Business-Intelligence)
 MySQL & Tableau integration project for analyzing employee data and visualizing the findings across the departments for management including
 + What is breakdown between the male and female employees working in the company each year, starting from 1990?
 + What is the number of male managers to the number of female managers from different departments for each year, starting from 1990?
@@ -40,7 +40,7 @@ MySQL & Tableau integration project for analyzing employee data and visualizing 
 + etc.
 
 
-## [Parch & Posey Company Data-Analysis Project](https://github.com/ptyadana/SQL-for-Data-Analysis)
+## [Parch & Posey Company Data-Analysis Project](https://github.com/ptyadana/SQL-for-Data-Analysis-Parch-and-Posey)
 PostgreSQL project for helping fictional company called Parch & Posey for 
 + managing the Orders, 
 + finding out the relationship with different Accounts
