@@ -1,39 +1,96 @@
-# MySQL Data Analysis Projects
-Compilation of MySQL data analysis related projects, notes and challenges.
+# SQL Data Analysis & Data Visualizaiton Projects
+Compilation of SQL data analysis related projects, notes and challenges.
 
-### Database and Tool
+### Built with
++ SQL
 + MySQL
++ PostgreSQL
++ SQLite
 + MySQL Workbench
++ pgAdmin
++ DB Browser for SQLite
 + Tableau Public
 
-## Projects
-**Instagram Clone Project**: MySQL project which is a cloned mimic version of Instagram database. It is used to perform analysis for real world business related questions.
 
-**Flim Rental Store**: perform data analysis for user behaviours, making data driven decisions, discovering marketing stats, finding actionable customer/business insights, Measuring and track marketing efforts.
+# Projects & Challenges
 
-## SQL - Tableau Visualization Projects
-**SQL - MySQL for Data Analytics and Business Intelligence** : challenges are from [SQL - MySQL for Data Analytics and Business Intelligence](https://www.udemy.com/course/sql-mysql-for-data-analytics-and-business-intelligence/) which is an interesting course. See [details on Github](https://github.com/ptyadana/sql-tableau-data-analysis-visualization-projects).
+## [Instagram Clone Project](Instagram%20Clone%20Project)
+MySQL project which is a cloned mimic version of Instagram database. 
+It is used to perform data analysis for real world business related questions and scenarios such as
++ find out the rewarding system for the loyal users
++ launching campaign to target the weekdays with the most user registerations
++ encouraging inactive users to log in back to the system
++ etc. 
 
-## SQL for Data-Analysis
-**SQL for Data-Analysis** : challenges are from [SQL for Data-Analysis](https://www.udacity.com/course/sql-for-data-analysis--ud198) by Udacity. See [details on Github](https://github.com/ptyadana/SQL-for-Data-Analysis).
 
-## Digital Music Store - Data Analysis
-**Digital Music Store - Data Analysis** : See [details on Github](https://github.com/ptyadana/Data-Analysis-for-Digital-Music-Store).
+## [Flim Rental Store Project](SQL%20for%20Data%20Analysis%20-%20Weekender%20Crash%20Course)
+MySQL data analysis project in helping Flim Rental Store to 
++ perform data analysis for user behaviours
++ discover marketing stats
++ find actionable customer/business insights
++ measure and track marketing efforts
++ etc.
 
-## Challenges
-**Ultimate MySQL** : challenges are from Udemy course [The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert](https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/) which is an amazing course.
 
-**SQL Code Challenges** : challenges are from Lynda course [SQL Code Challenges](https://www.lynda.com/SQL-tutorials/SQL-Code-Challenges/2825725-2.html) which has 2 projects:
-    - **In the Restaurant** - helping the Restaurant to manage customer information, reservations, orders and party invities in for Restaurant 20th Anniversary.
-	- **At the Library** - helping the Library to manage the books statistics, check out and loan process, managing on due loans, encouraging patrons, etc.
-	
-**SQL 30 Questions**: challenges from Skillshare course [Skill Share - 30 Simple SQL Interview Queries](https://www.skillshare.com/classes/SQL-Interview-30-Simple-SQL-Interview-Queries-in-2019/809081836).
+## [Company Employee - SQL & Tableau Visualization Project](https://github.com/ptyadana/SQL-Tableau-Data-Analysis-Visualization-Projects)
+MySQL & Tableau integration project for analyzing employee data and visualizing the findings across the departments for management including
++ What is breakdown between the male and female employees working in the company each year, starting from 1990?
++ What is the number of male managers to the number of female managers from different departments for each year, starting from 1990?
++ What is the average salary of female versus male employees in the entire company until year 2002? Need to filter out by departments.
++ etc.
 
-**SQL Queries - Practice your SQL Knowledge**: challenges from Skillshare course [SQL Queries: Practice your SQL Knowledge!](https://www.skillshare.com/classes/SQL-Queries-Practice-your-SQL-Knowledge/465058562).
 
-**SQL for Data Analysis - Weekender Crash Course**: challenges from Udemy course [SQL for Data Analysis: Weekender Crash Course](https://www.udemy.com/course/sql-for-newbs/) which is meant for beginner. But I found it quite fun to watch the instructors. Project is "Flim Rental Store".
+## [Parch & Posey Company Data-Analysis Project](https://github.com/ptyadana/SQL-for-Data-Analysis)
+PostgreSQL project for helping fictional company called Parch & Posey for 
++ managing the Orders, 
++ finding out the relationship with different Accounts
++ monitoring the performance of Sales Reps
++ etc.
 
-**Complete SQL Mastery**: challenges from [Complete SQL Mastery](https://codewithmosh.com/p/complete-sql-mastery).
+
+## [Digital Music Store - Data Analysis Project](https://github.com/ptyadana/Data-Analysis-for-Digital-Music-Store)
+PostgreSQL Data Analysis project to help Chinook Digital Music Store to help how they can optimize their business opportunities and to help answering business related questions.
++ countries with most invoices
++ city with best customers
++ finding out who the best customer is
++ etc.
+
+## [Restaurant & Library - Information & Patrons ](SQL%20Code%20Challenges%20-%20Lynda)
+SQLite project for 
++ **In the Restaurant** - helping the Restaurant to manage customer information, reservations, orders and party invities in for Restaurant 20th Anniversary.
++ **At the Library** - helping the Library to manage the books statistics, check out and loan process, managing on due loans, encouraging patrons, etc.
+
+
+------------
+
+
+## [Ultimate MySQL](Ultimate%20MySQL)
++ data analysis challenges for Books and Authors
++ Udemy Course: [The Ultimate MySQL Bootcamp: Go from SQL Beginner to Expert](https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/)
+
+## [Complete SQL Mastery](Complete%20SQL%20Mastery%20-%20Mosh)
++ handling and analyzing Large Ecommerce Store for clients, payments, invoices, products and shipping information.
++ Course: [Complete SQL Mastery](https://codewithmosh.com/p/complete-sql-mastery)
+
+## [SQL Code Challenges](SQL%20Code%20Challenges%20-%20Lynda)
++ **In the Restaurant** - helping the Restaurant to manage customer information, reservations, orders and party invities in for Restaurant 20th Anniversary.
++ **At the Library** - helping the Library to manage the books statistics, check out and loan process, managing on due loans, encouraging patrons, etc.
++ Lynda Course: [SQL Code Challenges](https://www.lynda.com/SQL-tutorials/SQL-Code-Challenges/2825725-2.html)
+
+## [SQL 30 Questions](SQL%2030%20Questions)
++ challeges your SQL knowledge with those SQL questions
++ Skillshare Course: [30 Simple SQL Interview Queries](https://www.skillshare.com/classes/SQL-Interview-30-Simple-SQL-Interview-Queries-in-2019/809081836)
+
+## [SQL Queries - Practice your SQL Knowledge](SQL%20Queries%20-%20Practice%20your%20SQL%20Knowledge)
++ challeges your knowledge with those SQL questions
++ Skillshare Course: [SQL Queries: Practice your SQL Knowledge!](https://www.skillshare.com/classes/SQL-Queries-Practice-your-SQL-Knowledge/465058562)
+
+## [SQL for Data Analysis - Weekender Crash Course](SQL%20for%20Data%20Analysis%20-%20Weekender%20Crash%20Course)
++ beginner challenges with fun instructors.
++ Udemy Course: [SQL for Data Analysis: Weekender Crash Course](https://www.udemy.com/course/sql-for-newbs/)
+
+
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
