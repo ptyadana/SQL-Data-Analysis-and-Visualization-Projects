@@ -23,8 +23,8 @@ It is used to perform data analysis for real world business related questions an
 + etc. 
 
 
-## [Flim Rental Store Project](SQL%20for%20Data%20Analysis%20-%20Weekender%20Crash%20Course)
-MySQL data analysis project in helping Flim Rental Store to 
+## [Film Rental Store Project](SQL%20for%20Data%20Analysis%20-%20Weekender%20Crash%20Course)
+MySQL data analysis project in helping Film Rental Store to 
 + perform data analysis for user behaviours
 + discover marketing stats
 + find actionable customer/business insights
