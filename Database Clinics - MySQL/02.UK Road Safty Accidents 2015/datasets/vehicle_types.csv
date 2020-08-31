@@ -1,0 +1,22 @@
+code,label
+1,Pedal cycle
+2,Motorcycle 50cc and under
+3,Motorcycle 125cc and under
+4,Motorcycle over 125cc and up to 500cc
+5,Motorcycle over 500cc
+8,Taxi/Private hire car
+9,Car
+10,Minibus (8 - 16 passenger seats)
+11,Bus or coach (17 or more pass seats)
+16,Ridden horse
+17,Agricultural vehicle
+18,Tram
+19,Van / Goods 3.5 tonnes mgw or under
+20,Goods over 3.5t. and under 7.5t
+21,Goods 7.5 tonnes mgw and over
+22,Mobility scooter
+23,Electric motorcycle
+90,Other vehicle
+97,Motorcycle - unknown cc
+98,Goods vehicle - unknown weight
+-1,Data missing or out of range

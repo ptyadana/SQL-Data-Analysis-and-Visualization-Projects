@@ -63,16 +63,25 @@ SQLite project for
 
 
 ## [California Population Project](Database%20Clinics%20-%20MySQL/01.California%20Population%20Projection)
-MySQL project for 
+MySQL project for analyzing [Californa population projection data](
+https://data.ca.gov/dataset/)
 + getting population data and loading for data analysis
 + finidng out male and female populations per county for 2014
 
 ## [California Education Project](Database%20Clinics%20-%20MySQL/04.California%20Education)
-MySQL project for
+MySQL project for analyzing Population Projection and [Education data](https://data.ca.gov/dataset/ca-educational-attainment-personal-income)
 + initital cleaning for education data
 + finding the percentage of education attainment for each category across differnent age group
 + getting demographics based on education data and age group
 + finding out projection of education demand for each age group based on Population Projection and Education data
+
+
+## [UK Road Safty Accidents 2015 Project](Database%20Clinics%20-%20MySQL/02.UK%20Road%20Safty%20Accidents%202015))
+MySQL and python project for analyzing [UK road safty data](https://data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data), accidents and severity level
++ finding out what is meadian severity value of accidents caused by various Motrocycle
++ Accident Severity and Total Accidents per Vehicle Type
++ Average Severity by vehicle type
++ Average Severity and Total Accidents by Motorcyle
 
 ------------
 
