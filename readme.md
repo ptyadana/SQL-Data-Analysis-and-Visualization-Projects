@@ -55,14 +55,16 @@ PostgreSQL Data Analysis project to help Chinook Digital Music Store to help how
 + finding out who the best customer is
 + etc.
 
+
 ## [Restaurant & Library - Information & Patrons Project](SQL%20Code%20Challenges%20-%20Lynda)
 SQLite project for 
-+ **In the Restaurant** - helping the Restaurant to manage customer information, reservations, orders and party invities in for Restaurant 20th Anniversary.
-+ **At the Library** - helping the Library to manage the books statistics, check out and loan process, managing on due loans, encouraging patrons, etc.
++ **[In the Restaurant](SQL%20Code%20Challenges%20-%20Lynda/In%20the%20Restaurant)** - helping the Restaurant to manage customer information, reservations, orders and party invities in for Restaurant 20th Anniversary.
++ **[At the Library](SQL%20Code%20Challenges%20-%20Lynda/At%20the%20Library)** - helping the Library to manage the books statistics, check out and loan process, managing on due loans, encouraging patrons, etc.
 
 
 ------------
 
+# Bootcamps
 
 ## [Ultimate MySQL](Ultimate%20MySQL)
 + data analysis challenges for Books and Authors
@@ -88,6 +90,13 @@ SQLite project for
 ## [SQL for Data Analysis - Weekender Crash Course](SQL%20for%20Data%20Analysis%20-%20Weekender%20Crash%20Course)
 + beginner challenges with fun instructors.
 + Udemy Course: [SQL for Data Analysis: Weekender Crash Course](https://www.udemy.com/course/sql-for-newbs/)
+
+
+## Advancing SQL Journey - (In Progress)
+To skill up my SQL related skills in specific areas and topics:
+- MySQL Development - Lynda
+- MySQL Configurations
+- SQL Code Challenges - Lynda
 
 
 
