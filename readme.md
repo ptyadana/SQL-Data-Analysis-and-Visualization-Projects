@@ -1,5 +1,5 @@
 # SQL Data Analysis & Data Visualizaiton Projects
-Compilation of SQL data analysis related projects, notes and challenges.
+Compilation of SQL data analysis related projects and challenges where I practice SQL related skills.
 
 ### Built with
 + SQL
