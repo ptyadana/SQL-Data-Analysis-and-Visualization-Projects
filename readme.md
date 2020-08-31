@@ -123,9 +123,11 @@ MySQL and python project for analyzing Shakespeare's Mid Summer Night Dream play
 
 ## Advancing SQL Journey - (In Progress)
 To skill up my SQL related skills in specific areas and topics:
-- MySQL Development - Lynda
-- MySQL Configurations
-- SQL Code Challenges - Lynda
++ MySQL Development - Lynda
++ MySQL Configurations
++ SQL Code Challenges - Lynda
++ Database Clinics - MySQL
+
 
 
 
