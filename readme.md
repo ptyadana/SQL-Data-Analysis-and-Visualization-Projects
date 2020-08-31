@@ -10,6 +10,7 @@ Compilation of SQL data analysis related projects, notes and challenges.
 + pgAdmin
 + DB Browser for SQLite
 + Tableau Public
++ python
 
 
 # Projects & Challenges
@@ -76,12 +77,19 @@ MySQL project for analyzing Population Projection and [Education data](https://d
 + finding out projection of education demand for each age group based on Population Projection and Education data
 
 
-## [UK Road Safty Accidents 2015 Project](Database%20Clinics%20-%20MySQL/02.UK%20Road%20Safty%20Accidents%202015))
+## [UK Road Safty Accidents 2015 Project](Database%20Clinics%20-%20MySQL/02.UK%20Road%20Safty%20Accidents%202015)
 MySQL and python project for analyzing [UK road safty data](https://data.gov.uk/dataset/cb7ae6f0-4be6-4935-9277-47e5ce24a11f/road-safety-data), accidents and severity level
 + finding out what is meadian severity value of accidents caused by various Motrocycle
 + Accident Severity and Total Accidents per Vehicle Type
 + Average Severity by vehicle type
 + Average Severity and Total Accidents by Motorcyle
+
+
+## [Mid Summer Night Dream Project](Database%20Clinics%20-%20MySQL/03.Mid%20Summer%20Night%20Dream)
+MySQL and python project for analyzing Shakespeare's Mid Summer Night Dream play texts and characters
++ loading information for analyzing purpose
++ calcuating performance different queriy types such as SELECT, INSERT, UPDATE, DELETE
++ manipulating plays and characters
 
 ------------
 
