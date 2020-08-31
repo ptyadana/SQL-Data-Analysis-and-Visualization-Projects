@@ -62,6 +62,18 @@ SQLite project for
 + **[At the Library](SQL%20Code%20Challenges%20-%20Lynda/At%20the%20Library)** - helping the Library to manage the books statistics, check out and loan process, managing on due loans, encouraging patrons, etc.
 
 
+## [California Population Project](Database%20Clinics%20-%20MySQL/01.California%20Population%20Projection)
+MySQL project for 
++ getting population data and loading for data analysis
++ finidng out male and female populations per county for 2014
+
+## [California Education Project](Database%20Clinics%20-%20MySQL/04.California%20Education)
+MySQL project for
++ initital cleaning for education data
++ finding the percentage of education attainment for each category across differnent age group
++ getting demographics based on education data and age group
++ finding out projection of education demand for each age group based on Population Projection and Education data
+
 ------------
 
 # Bootcamps
