@@ -91,6 +91,14 @@ MySQL and python project for analyzing Shakespeare's Mid Summer Night Dream play
 + calcuating performance different queriy types such as SELECT, INSERT, UPDATE, DELETE
 + manipulating plays and characters
 
+
+## [Project - Analyze International Debt Statistics](Project%20-%20Analyze%20International%20Debt%20Statistics)
+PostgreSQL project in Jupyter notebook for analyzing international debt statistics using data from world bank.
++ What is the average debt across countries?
++ What is the maximum debt indicator?
++ Which country has the highest debt in which debt indicator
++ etc.
+
 ------------
 
 # Bootcamps
