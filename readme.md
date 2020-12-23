@@ -135,6 +135,7 @@ To skill up my SQL related skills in specific areas and topics:
 + MySQL Configurations
 + SQL Code Challenges - Lynda
 + Database Clinics - MySQL
++ SQL for Exploratory Data Analysis Essential Training
 
 
 
