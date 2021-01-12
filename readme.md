@@ -10,7 +10,10 @@ Compilation of SQL data analysis related projects and challenges where I practic
 + pgAdmin
 + DB Browser for SQLite
 + Tableau Public
-+ python
++ Apache Spark
++ databricks
++ Spark with pySpark
++ Python
 
 
 # Projects & Challenges
@@ -131,14 +134,20 @@ PostgreSQL project in Jupyter notebook for analyzing international debt statisti
 
 ## Advancing SQL Journey - (In Progress)
 To skill up my SQL related skills in specific areas and topics:
-+ MySQL Development - Lynda
-+ MySQL Configurations
-+ SQL Code Challenges - Lynda
-+ Database Clinics - MySQL
-+ SQL for Exploratory Data Analysis Essential Training
+
+- [x] [MySQL Development - Lynda](MySQL%20Development%20-%20Lynda)
+- [x] [MySQL Configurations](MySQL%20Configurations)
+- [x] [SQL Code Challenges - Lynda](SQL%20Code%20Challenges%20-%20Lynda)
+- [ ] [Database Clinics - MySQL](Database%20Clinics%20-%20MySQL)
+- [x] [SQL for Exploratory Data Analysis Essential Training](SQL%20for%20Exploratory%20Data%20Analysis%20Essential%20Training)
 
 
-
+## Apache Spark & PySpark
+- [ ] Intro to Spark SQL and DataFrames
+- [ ] Spark for Machine Learning & AI
+- [x] [Apache PySpark by Example](https://github.com/ptyadana/Data-Science-and-Machine-Learning-Projects-Dojo/tree/master/Spark%20-%20Apache%20PySpark%20by%20Example)
+- [ ] Apache Spark Deep Learning Essential Training
+- [x] [https://github.com/ptyadana/Data-Science-and-Machine-Learning-Projects-Dojo/tree/master/Spark%20-%20Apache%20Spark%20Essential%20Training)
 
 
 ## License
