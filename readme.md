@@ -143,7 +143,7 @@ To skill up my SQL related skills in specific areas and topics:
 
 
 ## Apache Spark & PySpark
-- [ ] Intro to Spark SQL and DataFrames
+- [x][Intro to Spark SQL and DataFrames](https://github.com/ptyadana/Data-Science-and-Machine-Learning-Projects-Dojo/tree/master/Spark%20-%20Spark%20SQL%20and%20Data%20Frames)
 - [ ] Spark for Machine Learning & AI
 - [x] [Apache PySpark by Example](https://github.com/ptyadana/Data-Science-and-Machine-Learning-Projects-Dojo/tree/master/Spark%20-%20Apache%20PySpark%20by%20Example)
 - [ ] Apache Spark Deep Learning Essential Training
