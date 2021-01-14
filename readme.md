@@ -147,7 +147,7 @@ To skill up my SQL related skills in specific areas and topics:
 - [x] [Apache Spark Essential Training](https://github.com/ptyadana/Data-Science-and-Machine-Learning-Projects-Dojo/tree/master/Spark%20-%20Apache%20Spark%20Essential%20Training)
 - [ ] Spark for Machine Learning & AI
 - [x] [Apache PySpark by Example](https://github.com/ptyadana/Data-Science-and-Machine-Learning-Projects-Dojo/tree/master/Spark%20-%20Apache%20PySpark%20by%20Example)
-- [x] Apache Spark Deep Learning Essential Training(https://github.com/ptyadana/Data-Science-and-Machine-Learning-Projects-Dojo/tree/master/Spark%20-%20Apache%20Spark%20Deep%20Learning%20Essential%20Training)
+- [x] [Apache Spark Deep Learning Essential Training](https://github.com/ptyadana/Data-Science-and-Machine-Learning-Projects-Dojo/tree/master/Spark%20-%20Apache%20Spark%20Deep%20Learning%20Essential%20Training)
 
 
 
