@@ -140,6 +140,7 @@ To skill up my SQL related skills in specific areas and topics:
 - [x] [SQL Code Challenges - Lynda](SQL%20Code%20Challenges%20-%20Lynda)
 - [ ] [Database Clinics - MySQL](Database%20Clinics%20-%20MySQL)
 - [x] [SQL for Exploratory Data Analysis Essential Training](SQL%20for%20Exploratory%20Data%20Analysis%20Essential%20Training)
+- [x] [SQL for Statistics Essential Training](SQL%20for%20Statistics%20Essential%20Training)
 
 
 ## Apache Spark & PySpark
