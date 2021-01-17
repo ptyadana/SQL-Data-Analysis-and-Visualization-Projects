@@ -135,12 +135,15 @@ PostgreSQL project in Jupyter notebook for analyzing international debt statisti
 ## Advancing SQL Journey - (In Progress)
 To skill up my SQL related skills in specific areas and topics:
 
+- [x] [Advanced SQL for Data Scientists](Advanced%20SQL%20for%20Data%20Scientists)
+- [x] [SQL for Statistics Essential Training](SQL%20for%20Statistics%20Essential%20Training)
+- [x] [SQL for Exploratory Data Analysis Essential Training](SQL%20for%20Exploratory%20Data%20Analysis%20Essential%20Training)
 - [x] [MySQL Development - Lynda](MySQL%20Development%20-%20Lynda)
 - [x] [MySQL Configurations](MySQL%20Configurations)
 - [x] [SQL Code Challenges - Lynda](SQL%20Code%20Challenges%20-%20Lynda)
 - [ ] [Database Clinics - MySQL](Database%20Clinics%20-%20MySQL)
-- [x] [SQL for Exploratory Data Analysis Essential Training](SQL%20for%20Exploratory%20Data%20Analysis%20Essential%20Training)
-- [x] [SQL for Statistics Essential Training](SQL%20for%20Statistics%20Essential%20Training)
+
+
 
 
 ## Apache Spark & PySpark
