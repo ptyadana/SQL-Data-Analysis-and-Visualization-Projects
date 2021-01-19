@@ -79,3 +79,12 @@ CREATE TABLE time_series.location_temp_p12 PARTITION OF time_series.location_tem
 CREATE INDEX idx_loc_temp_p12 ON time_series.location_temp_p12(event_time);
 
 
+--------- Copy original data to newly created Partitioned Table ------------
+INSERT INTO time_series.location_temp_p(
+	event_time, event_hour, temp_celcius, location_id
+)
+(
+SELECT event_time, EXTRACT(HOUR FROM event_time), temp_celcius, location_id
+	FROM time_series.location_temp
+);
+
