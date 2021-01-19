@@ -1,0 +1,32 @@
+﻿Instructions for Setting Permissions on Time Series Data Files
+
+
+If you are using Mac or Linux, the following steps should set the permissions:
+
+
+1. Open a terminal window
+2. Change the current directory to the directory containing the data files
+3. For each data file, enter the command:
+Chmod 755 <file name>
+            Where <file name> is the name of the data file. 
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+If you are using Windows, the following steps should set the permissions:
+
+
+1. Right click the folder containing the file and select Properties
+2. Select the Security tab
+3. Click the Edit button
+4. Click Add...
+5. Enter everyone in the text box
+6. Click Check names (the word Everyone should now be underlined)
+7. Click OK
+8. With the Everyone item selected in the Group or user names box, select all the checkboxes in the Allow column
+9. Click Apply
+10. Click Apply again
