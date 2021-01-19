@@ -135,6 +135,7 @@ PostgreSQL project in Jupyter notebook for analyzing international debt statisti
 ## Advancing SQL Journey - (In Progress)
 To skill up my SQL related skills in specific areas and topics:
 
+- [x] [Advanced SQL for Data Science - Time Series](Advanced%20SQL%20for%20Data%20Science%20-%20Time%20Series)
 - [x] [Advanced SQL for Query Tuning and Performance Optimization](Advanced%20SQL%20for%20Query%20Tuning%20and%20Performance%20Optimization)
 - [x] [Advanced SQL for Data Scientists](Advanced%20SQL%20for%20Data%20Scientists)
 - [x] [SQL for Statistics Essential Training](SQL%20for%20Statistics%20Essential%20Training)
