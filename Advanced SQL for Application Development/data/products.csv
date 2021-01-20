@@ -1,0 +1,65 @@
+product_id,product_name,product_type
+1,Reflector oven,oven
+2,Convection microwave,oven
+3,Pressure fryer,fryer
+4,Multicooker,cooker
+5,Food steamer,steamer
+6,Chapati maker,specialty
+7,Mess kit,specialty
+8,Rotisserie,cooker
+9,Sous-vide cooker,cooker
+10,Rocket mass heater,heater
+11,Cheesemelter,specialty
+12,Hot plate,cooker
+13,Flattop grill,cooker
+14,Wet grinder,grinder
+15,Masonry oven,oven
+16,Chocolatera,specialty
+17,Turkey fryer,fryer
+18,Bread machine,specialty
+19,Roasting jack,cooker
+20,Brasero (heater),heater
+21,Susceptor,specialty
+22,Slow cooker,cooker
+23,Butane torch,cooker
+24,Microwave oven,oven
+25,Solar cooker,cooker
+26,Deep fryer,fryer
+27,Popcorn maker,specialty
+32,Russian oven,oven
+33,Clome oven,oven
+34,Convection oven,oven
+37,Beehive oven,oven
+38,Toaster and toaster ovens,oven
+39,Field kitchen,specialty
+40,Corn roaster,roaster
+41,Self-cleaning oven,oven
+42,Wood-fired oven,oven
+43,Kitchener range,oven
+44,Rice polisher,specialty
+45,Soy milk maker,specialty
+46,Crepe maker,specialty
+47,Oven,oven
+48,Hot box (appliance),oven
+49,Combi steamer,steamer
+51,Rice cooker,cooker
+52,Fire pot, cooker
+53,Salamander broiler,cooker
+54,Vacuum fryer,fryer
+55,Fufu Machine,specialy
+58,Tabun oven,oven
+59,Pancake machine,specialty
+60,Barbecue grill,grill
+63,Panini sandwich grill,grill
+64,Air fryer,fryer
+67,Chorkor oven,oven
+72,Communal oven,oven
+73,Pressure cooker,cooker
+74,Halogen oven,oven
+75,Instant Pot,cooker
+77,Waffle iron,specialty
+78,Stove,oven
+80,Earth oven,oven
+82,Electric cooker,cooker
+84,Espresso machine,coffee
+85,Coffee pot,coffee
