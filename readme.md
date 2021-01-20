@@ -2,19 +2,25 @@
 Compilation of SQL data analysis related projects and challenges where I practice SQL, Tableau, PySpark related skills.
 
 ### Built with
-+ SQL
-+ MySQL
-+ PostgreSQL
-+ SQLite
-+ MySQL Workbench
-+ pgAdmin
-+ DB Browser for SQLite
-+ Tableau Public
+
++ SQL Languages
+	+ SQL
+	+ MySQL
+	+ PostgreSQL
+	+ SQLite
+
++ Tools
+	+ MySQL Workbench
+	+ pgAdmin
+	+ DB Browser for SQLite
+
 + Apache Spark
-+ databricks
-+ Spark with pySpark
+	+ Spark with pySpark
+	+ databricks
+	
 + Python
-+ psycopg2
+	+ psycopg2
+	+ jupyter notebook
 
 
 # Projects & Challenges
@@ -136,6 +142,7 @@ PostgreSQL project in Jupyter notebook for analyzing international debt statisti
 ## Advancing SQL Journey - (In Progress)
 To skill up my SQL related skills in specific areas and topics:
 
+- [x] [Advanced SQL for Application Development](Advanced%20SQL%20for%20Application%20Development)
 - [x] [Advanced SQL for Data Science - Time Series](Advanced%20SQL%20for%20Data%20Science%20-%20Time%20Series)
 - [x] [Advanced SQL for Query Tuning and Performance Optimization](Advanced%20SQL%20for%20Query%20Tuning%20and%20Performance%20Optimization)
 - [x] [Advanced SQL for Data Scientists](Advanced%20SQL%20for%20Data%20Scientists)
