@@ -14,6 +14,7 @@ Compilation of SQL data analysis related projects and challenges where I practic
 + databricks
 + Spark with pySpark
 + Python
++ psycopg2
 
 
 # Projects & Challenges
