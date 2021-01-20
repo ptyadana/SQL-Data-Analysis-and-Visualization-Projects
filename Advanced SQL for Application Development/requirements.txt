@@ -1,0 +1,7 @@
+requirements
+- postgreSQL
+- pgamdin
+
+- python3
+- psycopg2
+- SQLAlchemy
