@@ -1,5 +1,5 @@
 # SQL Data Analysis & Data Visualizaiton Projects
-Compilation of SQL data analysis related projects and challenges where I practice SQL, Tableau, PySpark related skills.
+Compilation of SQL, Tableau, PySpark data analysis related projects and challenges where I practice those skills.
 
 ### Built with
 
@@ -111,7 +111,23 @@ PostgreSQL project in Jupyter notebook for analyzing international debt statisti
 
 ------------
 
-# Bootcamps
+# Tableau
++ [My Tableau Public Profile](https://public.tableau.com/profile/phonethiriyadana#!/)
++ [Tableau Badges](https://www.youracclaim.com/users/phone-thiri-yadana/badges)
++ [x] Data Science with Tableau
++ [x] Analytics Best Practices
++ [x] Dashboard Design: Visual Best Practices
++ [x] Visual Analytics
++ [x] Desktop III: Advanced
++ [x] Desktop II: Intermediate
++ [x] Desktop I: Fundamentals
++ [x] Getting Started with Tableau Desktop
++ [x] [Tableau_2020_A-Z_Hands-On](https://github.com/ptyadana/Tableau_2020_A-Z_Hands-On)
++ [x] [ SQL - MySQL for Data Analytics and Business Intelligence](https://github.com/ptyadana/MySQL-Tableau-for-Data-Analytics-and-Business-Intelligence)
++ [x] [Introduction to Tableau by 365 Data Science](https://github.com/ptyadana/Tableau-Audiobooks-Sales-Analysis)
+
+
+# SQL
 
 ## [Ultimate MySQL](Ultimate%20MySQL)
 + data analysis challenges for Books and Authors
@@ -154,9 +170,7 @@ To skill up my SQL related skills in specific areas and topics:
 - [ ] [Database Clinics - MySQL](Database%20Clinics%20-%20MySQL)
 
 
-
-
-## Apache Spark & PySpark
+# Apache Spark & PySpark
 - [x] [Intro to Spark SQL and DataFrames](https://github.com/ptyadana/Data-Science-and-Machine-Learning-Projects-Dojo/tree/master/Spark%20-%20Spark%20SQL%20and%20Data%20Frames)
 - [x] [Apache Spark Essential Training](https://github.com/ptyadana/Data-Science-and-Machine-Learning-Projects-Dojo/tree/master/Spark%20-%20Apache%20Spark%20Essential%20Training)
 - [ ] Spark for Machine Learning & AI
