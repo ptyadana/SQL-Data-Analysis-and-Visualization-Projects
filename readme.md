@@ -154,6 +154,7 @@ PostgreSQL project in Jupyter notebook for analyzing international debt statisti
 + beginner challenges with fun instructors.
 + Udemy Course: [SQL for Data Analysis: Weekender Crash Course](https://www.udemy.com/course/sql-for-newbs/)
 
+## [Complete SQL & Databases - ZTM](Complete%20SQL%20%26%20Databases%20-%20ZTM)
 
 ## Advancing SQL Journey - (In Progress)
 To skill up my SQL related skills in specific areas and topics:
