@@ -317,10 +317,255 @@ FROM Salaries;
 
 /*------------------------------------------------------------------------------------------------------------*/
 
+/************* 13) Solving for Current Salary ***********/
+-- using GROUP BY isn't a good way to solve this problem because we need to pass in a lot of condition in GROUP BY clause.
+SELECT emp_no, salary, to_date
+FROM salaries
+GROUP BY emp_no, salary, to_date
+ORDER BY to_date DESC
+LIMIT 10;
+
+-- using window function for this problem
+-- within frame, we compare the salary with salary of following and preceding one along the way.
+-- LAST VALUE returns that very last value that won the salary comparing competition.
+-- We order by from date Ascending order, so we knew ahead that the current salary should be the one on the most bottom.
+SELECT 
+	DISTINCT e.emp_no, e.first_name, d.dept_name,
+	LAST_VALUE(s.salary) OVER(
+		PARTITION BY e.emp_no
+		ORDER BY s.from_date
+		RANGE BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING
+	) AS "Current Salary"
+FROM salaries s
+JOIN employees e USING(emp_no)
+JOIN dept_emp de USING (emp_no)
+JOIN departments d USING (dept_no)
+ORDER BY emp_no;
+
+-- checking out the unique salary for each employees
+SELECT emp_no, salary, from_date, to_date,
+	COUNT(salary) OVER(
+		PARTITION BY emp_no
+		ORDER BY to_date
+	)
+FROM salaries;
+
+/*-------------------------------------------------------------------------------------------------------------*/
 
 
+/************************************	 WINDOW FUNCTIONS 	****************************************************/
+/*
+	---------------------------------------------------------------------------------------------------------------------
+	|	Function				|		Purpose																			|
+	----------------------------|---------------------------------------------------------------------------------------|
+	|	SUM / MIN / MAX / AVG	|	Get the sum, min, .. of all the records in the partition							|
+	|	FIRST_VALUE				|	Return the value evaluated against the first row within the partition.				|
+	|	LAST_VALUE				|	Return the value evaluated against the last row within the partition.				|
+	|	NTH_VALUE				| 	Return the value evaluated against the nth row in ordered partition.				|
+	| 	PERCENT_RANK			|	Return the relative rank of the current row (rank-1) / (total rows - 1)				|
+	|	RANK					|	Rank the current row within its partition with gaps.								|
+	|	ROW_NUMBER				|	Number the current row within its partition starting from 1. (regardelss of framing)|
+	|	LAG / LEAD				|	Access the values from the previous or next row.									|
+	--------------------------------------------------------------------------------------------------------------------
+*/
+
+/************* 14) FIRST_VALUE ***********/
+
+/* I want to know how my price compares to the item with the LOWEST price in the SAME category */
+SELECT 
+	prod_id, price, category,
+	FIRST_VALUE(price) OVER(
+		PARTITION BY category
+		ORDER BY price
+	) AS "Cheapest in the category"
+FROM products
+ORDER BY category, prod_id;
+
+-- getting the same result using MIN which is easier, not needing ORDER BY too.
+SELECT 
+	prod_id, price, category,
+	MIN(price) OVER(
+		PARTITION BY category
+	) AS "Cheapest in the category"
+FROM products
+ORDER BY category, prod_id;
 
 
+/************* 15) LAST VALUE ****************/
+
+/* I want to know how my price to the item with the HIGHEST PRICE in the SAME category */
+SELECT 
+	prod_id, price, category,
+	LAST_VALUE(price) OVER(
+		PARTITION BY category
+		ORDER BY price
+		RANGE BETWEEN UNBOUNDED PRECEDING AND UNBOUNDED FOLLOWING
+	) AS "Most Expensive Price in Category"
+FROM products
+ORDER BY category, prod_id;
+
+-- using MAX
+SELECT 
+	prod_id, price, category,
+	MAX(price) OVER(
+		PARTITION BY category
+	) AS "Highest Price in Category"
+FROM products
+ORDER BY category, prod_id;
 
 
+/****************** 16) SUM ************************/
+
+/* I want to see how much Cumulatively a customer has ordered at our store */
+SELECT 
+	customerid, orderid, orderdate, netamount,
+	SUM(netamount) OVER(
+		PARTITION BY customerid
+		ORDER BY orderid
+	) AS "Cumulative Spending"
+FROM orders
+ORDER BY customerid, orderid;
+
+
+/**************** 17) ROW_NUMBER ****************/
+-- ROW_NUMBER ignores the framing
+-- no need to put parameters in ROW_NUMBER() function
+
+/* I want to know where my product is positioned in the category by price */
+SELECT 
+	category, prod_id, price,
+	ROW_NUMBER() OVER(
+		PARTITION BY category
+		ORDER BY price
+	) AS "Position in category by price"
+FROM products
+ORDER BY category
+
+/*------------------------------------------------------------------------------------------------------------*/
+
+/********************* 19) Conditional Statements ***********************/
+
+/********** CASE ************/
+/*
+	SELECT a,
+		CASE
+			WHEN a=1 THEN 'one'
+			WHEN a=2 THEN 'two'
+			ELSE 'other'
+		END
+	FROM test;
+*/
+
+-- 1) CASE statement can be used anywhere
+SELECT 
+	orderid, customerid,
+	CASE
+		WHEN customerid=1 THEN 'my first customer'
+		ELSE 'not my first customer'
+	END AS "customer status",
+	netamount
+FROM orders
+ORDER BY customerid;
+
+-- 2) using CASE in combination with WHERE
+SELECT
+	orderid, customerid, netamount
+FROM orders
+WHERE
+	CASE
+		WHEN customerid > 10 THEN netamount < 100
+		ELSE netamount > 100
+	END
+ORDER BY customerid;
+
+
+-- 3) using CASE statement with Aggregate function
+
+/* doing gesture of good faith, refunding 100$ for that order where spending is less than 100$ */
+SELECT
+	SUM(
+		CASE
+			WHEN netamount < 100 THEN -100
+			ELSE netamount
+		END
+	) AS "Returns",
+	SUM(netamount) AS "Normal Total",
+FROM orders;
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/******************* 20) NULL IF *******************/
+/*
+	Use NULLIF to fill in empty spots with a NULL value to avoid divide by zero issues
+	
+	NULLIF(val1, val2)
+	
+	if value 1 is equal to value 2, return NULL
+*/
+
+SELECT NULLIF(0, 0); -- returns null
+
+SELECT NULLIF('ABC', 'DEF'); -- returns ABC
+
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+
+/******************** 21) VIEWS *********************/
+/*
+	Views allow you to store the results and query of previously run queries.
+	
+	There are 2 types of views: 1) Materialized and 2) Non-Materialized Views.
+	
+	1) Materialzed View - stores the data PHYSICIALLY AND PERIODICALLY UPDATES it when tables change.
+	2) Non-Materialized View - Query gets RE-RUN each time the view is called on.
+	
+*/
+
+/*************** 	22) VIEW syntax **************/
+/*
+	+ views are OUTPUT of query we ran.
+	+ views act like TABLES you can query them.
+	+ (Non-Materialized View): views tak VERY LITTLE SPACE to store. We only store the definition of the view, NOT ALL the data that it returns.	
+*/
+
+-- Create a view
+CREATE VIEW view_name 
+AS query;
+
+-- Update a view
+CREATE OR REPLACE view_name
+AS query;
+
+-- Rename a view
+ALTER VIEW exisitng_view_name RENAME TO new_view_name;
+
+-- Delete a view
+DROP VIEW IF EXISTS view_name;
+
+/*************** 23) Using VIEWS ******************/
+
+-- get the last salary change of each employee
+CREATE VIEW last_salary_change AS
+	SELECT e.emp_no,
+		MAX(s.from_date)
+	FROM salaries s
+	JOIN employees e USING(emp_no)
+	JOIN dept_emp de USING(emp_no)
+	JOIN departments d USING(dept_no)
+	GROUP BY e.emp_no
+	ORDER BY e.emp_no;
+
+-- query entire data from that view
+SELECT * FROM last_salary_change;
+
+-- combine with view to get the latest salary of each employee
+SELECT 
+	s.emp_no, d.dept_name, s.from_date, s.salary
+FROM last_salary_change lsc
+JOIN salaries s USING(emp_no)
+JOIN dept_emp de USING(emp_no)
+JOIN departments d USING(dept_no)
+WHERE s.from_date = lsc.max
+ORDER BY s.emp_no;
 
