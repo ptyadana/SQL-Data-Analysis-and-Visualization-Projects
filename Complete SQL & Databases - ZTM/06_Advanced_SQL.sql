@@ -569,3 +569,144 @@ JOIN departments d USING(dept_no)
 WHERE s.from_date = lsc.max
 ORDER BY s.emp_no;
 
+/*--------------------------------------------------------------------------------------------------------------*/
+
+/**************** 24) Indexes ****************/
+/*
+	Index is the construct to improve Querying Performance.
+	
+	Think of it like a table of contents, it helps you find where a piece of data is.
+	
+	Pros: Speed up querying
+	Cons: Slows down data Insertion and Updates
+	
+	***** Types of Indexes *****
+	- Single Column
+	- Multi Column
+	- Unique
+	- Partial
+	- Implicit Indexes (done by default)
+*/
+
+-- Create an index
+CREATE UNIQUE INDEX idx_name
+ON table_name(column1, column2, ...);
+
+-- Delete an index
+DELETE INDEX idx_name;
+
+/*
+	 **** When to Use Indexes *****
+	 - Index Foreign Keys
+	 - Index Primary Keys and Unique Columns
+	 - Index on Columns that end up in the ORDER BY/WHERE clause VERY OFTEN.
+	 
+	 ***** When NOT to use Indexes ******
+	 - Don't add Index just to add Index
+	 - Don't use Index on Small Table
+	 - Don't use on Tables that are UPDATED FREQUENTLY.
+	 - Don't use on Columns that can contain NULL values
+	 - Don't use on Columns that have Large Values.
+*/
+
+
+/***************** 25) Indexes Types ******************/
+
+/*
+
+	Single Column Index 	: 	retrieving data that satisfies ONE condition.
+	Multi Column Index		:	retrieving data that satisfies MULIPLE Conditions.
+	UNIQUE					: 	For Speed and Integrity
+	PARTIAL					: 	Index Over a SUBSET of a Table (CREATE INDEX name ON table (<expression);)
+	IMPLICIT				: 	Automatically creaed by the database: (Primary Key, Unique Key)
+
+*/
+
+EXPLAIN ANALYZE
+SELECT "name", district, countrycode
+FROM city
+WHERE countrycode IN ('TUN', 'BE', 'NL');
+
+-- Single Index
+CREATE INDEX idx_countrycode
+ON city(countrycode);
+
+
+-- Partial Index
+CREATE INDEX idx_countrycode
+ON city(countrycode) WHERE countrycode IN ('TUN', 'BE', 'NL');
+
+EXPLAIN ANALYZE
+SELECT "name", district, countrycode
+FROM city
+WHERE countrycode IN ('PSE', 'ZWE', 'USA');
+
+
+/************************** 26) Index Algorithms *********************/
+/*
+	POSTGRESQL provides Several types of indexes:
+		B-TREE
+		HASH
+		GIN
+		GIST
+	Each Index types use different algorithms.
+*/
+
+-- we can extend which algorithm to use while creating index
+CREATE UNIQUE INDEX idx_name
+ON tbl_name USING <method> (column1, column2, ...)
+
+
+-- by default, it is created using B-TREE
+CREATE INDEX idx_countrycode
+ON city(countrycode);
+
+-- but we can specify which algorithm to use (example: HASH)
+CREATE INDEX idx_countrycode
+ON city USING HASH (countrycode);
+
+/*************************** When to use which Algorithms? *************************/
+/*
+			********* B-TREE ***********
+			Default Algorithm
+			Best Used for COMPARISONS with
+				<, >
+				<=, >=
+				=
+				BETWEEN
+				IN
+				IS NULL
+				IS NOT NULL
+				
+				
+			**********  HASH **********
+			Can only handle Equality = Operations.	
+			
+			
+			*********** GIN (Generalized Inverted Index) ************
+			Best used when Multiple Values are stored in a Single Field.
+			
+			
+			*********** GIST (Generalized Search Tree) ***********
+			Useful in Indexing Geometric Data and Full-Text Search.
+*/
+
+-- testing for HASH
+EXPLAIN ANALYZE
+SELECT "name", district, countrycode
+FROM city
+WHERE countrycode='BEL' OR countrycode='TUN' OR countrycode='NL';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
