@@ -157,3 +157,40 @@ INSERT INTO test VALUES(
 );
 
 /*--------------------------------------------------------------------------------------------------------------*/
+
+/************ 19) Create Tables **************/
+
+CREATE TABLE <name> (
+	<col1> TYPE [Constraint],
+	table_constraint [Constraint]
+)[INHERITS <existing_table>];
+
+-- create table for ztm db
+-- first need to create extension, otherwise we can't use uuid_generate_v4() function.
+CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
+
+CREATE TABLE student(
+	student_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+	first_name VARCHAR(255) NOT NULL,
+	last_name VARCHAR(255) NOT NULL,
+	email VARCHAR(255) NOT NULL,
+	date_of_birth DATE NOT NULL
+);
+
+-- check the existing tables
+>> \dt
+
+-- check the newly created student table
+>> \d student
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+/************ 21) Column Constraints **************/
+
+/*
+			NOT NULL			: cannot be Null
+			PRIMARY KEY			: column will be primary key
+			UNIQUE				: can only contain unique values (Null is Unique)
+			CHECK				: apply a special condition check against the values in the column
+			REFERENCES			: used in Foreign Key referencing
+*/
